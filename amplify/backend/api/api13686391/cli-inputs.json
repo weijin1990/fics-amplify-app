@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/poc/items": {
+      "name": "/poc/items",
+      "lambdaFunction": "testLambdaFunc",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
